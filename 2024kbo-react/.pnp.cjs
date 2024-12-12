@@ -37,10 +37,13 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__core", "npm:7.20.5"],\
           ["@types/babel__preset-env", "npm:7.9.7"],\
           ["@types/react", "npm:19.0.1"],\
+          ["@types/react-big-calendar", "npm:1.16.0"],\
           ["@types/react-dom", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:19.0.2"],\
           ["babel-loader", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:9.2.1"],\
+          ["date-fns", "npm:4.1.0"],\
           ["html-webpack-plugin", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:5.6.3"],\
           ["react", "npm:19.0.0"],\
+          ["react-big-calendar", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:1.17.0"],\
           ["react-dom", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:19.0.0"],\
           ["react-scripts", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:5.0.1"],\
           ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"],\
@@ -67,10 +70,13 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__core", "npm:7.20.5"],\
           ["@types/babel__preset-env", "npm:7.9.7"],\
           ["@types/react", "npm:19.0.1"],\
+          ["@types/react-big-calendar", "npm:1.16.0"],\
           ["@types/react-dom", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:19.0.2"],\
           ["babel-loader", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:9.2.1"],\
+          ["date-fns", "npm:4.1.0"],\
           ["html-webpack-plugin", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:5.6.3"],\
           ["react", "npm:19.0.0"],\
+          ["react-big-calendar", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:1.17.0"],\
           ["react-dom", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:19.0.0"],\
           ["react-scripts", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:5.0.1"],\
           ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"],\
@@ -5418,6 +5424,38 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@popperjs/core", [\
+      ["npm:2.11.8", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@popperjs-core-npm-2.11.8-f1692e11a0-10c0.zip/node_modules/@popperjs/core/",\
+        "packageDependencies": [\
+          ["@popperjs/core", "npm:2.11.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@restart/hooks", [\
+      ["npm:0.4.16", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@restart-hooks-npm-0.4.16-61dbae33ba-10c0.zip/node_modules/@restart/hooks/",\
+        "packageDependencies": [\
+          ["@restart/hooks", "npm:0.4.16"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:5d461e8d166ebaec6cf2d44e7e497aff4621a013ffa1f538801a5bbc5952d439f52a380ee4119d83ca50e4bff174b4e6aa26c1c2754fe3b5e35adeda7ad04e4b#npm:0.4.16", {\
+        "packageLocation": "./.yarn/__virtual__/@restart-hooks-virtual-262b8e2838/4/AppData/Local/Yarn/Berry/cache/@restart-hooks-npm-0.4.16-61dbae33ba-10c0.zip/node_modules/@restart/hooks/",\
+        "packageDependencies": [\
+          ["@restart/hooks", "virtual:5d461e8d166ebaec6cf2d44e7e497aff4621a013ffa1f538801a5bbc5952d439f52a380ee4119d83ca50e4bff174b4e6aa26c1c2754fe3b5e35adeda7ad04e4b#npm:0.4.16"],\
+          ["@types/react", "npm:19.0.1"],\
+          ["dequal", "npm:2.0.3"],\
+          ["react", "npm:19.0.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@rollup/plugin-babel", [\
       ["npm:5.3.1", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@rollup-plugin-babel-npm-5.3.1-6039a4d033-10c0.zip/node_modules/@rollup/plugin-babel/",\
@@ -5952,6 +5990,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/date-arithmetic", [\
+      ["npm:4.1.4", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-date-arithmetic-npm-4.1.4-9729758110-10c0.zip/node_modules/@types/date-arithmetic/",\
+        "packageDependencies": [\
+          ["@types/date-arithmetic", "npm:4.1.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/eslint", [\
       ["npm:8.56.12", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-eslint-npm-8.56.12-3bfdf2144c-10c0.zip/node_modules/@types/eslint/",\
@@ -6190,6 +6237,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/prop-types", [\
+      ["npm:15.7.14", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-prop-types-npm-15.7.14-4ccaa07795-10c0.zip/node_modules/@types/prop-types/",\
+        "packageDependencies": [\
+          ["@types/prop-types", "npm:15.7.14"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/q", [\
       ["npm:1.5.8", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-q-npm-1.5.8-a29ca59dc8-10c0.zip/node_modules/@types/q/",\
@@ -6223,6 +6279,18 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/react", "npm:19.0.1"],\
           ["csstype", "npm:3.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/react-big-calendar", [\
+      ["npm:1.16.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-react-big-calendar-npm-1.16.0-30e9d19748-10c0.zip/node_modules/@types/react-big-calendar/",\
+        "packageDependencies": [\
+          ["@types/react-big-calendar", "npm:1.16.0"],\
+          ["@types/date-arithmetic", "npm:4.1.4"],\
+          ["@types/prop-types", "npm:15.7.14"],\
+          ["@types/react", "npm:19.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6349,6 +6417,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-trusted-types-npm-2.0.7-a07fc44f59-10c0.zip/node_modules/@types/trusted-types/",\
         "packageDependencies": [\
           ["@types/trusted-types", "npm:2.0.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/warning", [\
+      ["npm:3.0.3", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-warning-npm-3.0.3-651ad6a5da-10c0.zip/node_modules/@types/warning/",\
+        "packageDependencies": [\
+          ["@types/warning", "npm:3.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8361,6 +8438,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["clsx", [\
+      ["npm:1.2.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/clsx-npm-1.2.1-77792dc182-10c0.zip/node_modules/clsx/",\
+        "packageDependencies": [\
+          ["clsx", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["co", [\
       ["npm:4.6.0", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/co-npm-4.6.0-03f2d1feb6-10c0.zip/node_modules/co/",\
@@ -9172,6 +9258,33 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["date-arithmetic", [\
+      ["npm:4.1.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/date-arithmetic-npm-4.1.0-0157142f17-10c0.zip/node_modules/date-arithmetic/",\
+        "packageDependencies": [\
+          ["date-arithmetic", "npm:4.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["date-fns", [\
+      ["npm:4.1.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/date-fns-npm-4.1.0-764604ee0f-10c0.zip/node_modules/date-fns/",\
+        "packageDependencies": [\
+          ["date-fns", "npm:4.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["dayjs", [\
+      ["npm:1.11.13", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/dayjs-npm-1.11.13-d478bb9479-10c0.zip/node_modules/dayjs/",\
+        "packageDependencies": [\
+          ["dayjs", "npm:1.11.13"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["debug", [\
       ["npm:2.6.9", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/debug-npm-2.6.9-7d4cb597dc-10c0.zip/node_modules/debug/",\
@@ -9395,6 +9508,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["dequal", [\
+      ["npm:2.0.3", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/dequal-npm-2.0.3-53a630c60e-10c0.zip/node_modules/dequal/",\
+        "packageDependencies": [\
+          ["dequal", "npm:2.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["destroy", [\
       ["npm:1.2.0", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/destroy-npm-1.2.0-6a511802e2-10c0.zip/node_modules/destroy/",\
@@ -9520,6 +9642,17 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["dom-converter", "npm:0.2.0"],\
           ["utila", "npm:0.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["dom-helpers", [\
+      ["npm:5.2.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/dom-helpers-npm-5.2.1-b38bb4470b-10c0.zip/node_modules/dom-helpers/",\
+        "packageDependencies": [\
+          ["dom-helpers", "npm:5.2.1"],\
+          ["@babel/runtime", "npm:7.26.0"],\
+          ["csstype", "npm:3.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -11339,6 +11472,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["globalize", [\
+      ["npm:0.1.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/globalize-npm-0.1.1-de06b5a11f-10c0.zip/node_modules/globalize/",\
+        "packageDependencies": [\
+          ["globalize", "npm:0.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["globals", [\
       ["npm:11.12.0", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/globals-npm-11.12.0-1fa7f41a6c-10c0.zip/node_modules/globals/",\
@@ -11970,6 +12112,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/interpret-npm-3.1.1-715bac2bd7-10c0.zip/node_modules/interpret/",\
         "packageDependencies": [\
           ["interpret", "npm:3.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["invariant", [\
+      ["npm:2.2.4", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/invariant-npm-2.2.4-717fbdb119-10c0.zip/node_modules/invariant/",\
+        "packageDependencies": [\
+          ["invariant", "npm:2.2.4"],\
+          ["loose-envify", "npm:1.4.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -13708,6 +13860,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["lodash-es", [\
+      ["npm:4.17.21", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/lodash-es-npm-4.17.21-b45832dfce-10c0.zip/node_modules/lodash-es/",\
+        "packageDependencies": [\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["lodash.debounce", [\
       ["npm:4.0.8", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/lodash.debounce-npm-4.0.8-f1d6e09799-10c0.zip/node_modules/lodash.debounce/",\
@@ -13786,6 +13947,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["lru-cache", "npm:5.1.1"],\
           ["yallist", "npm:3.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["luxon", [\
+      ["npm:3.5.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/luxon-npm-3.5.0-92bb977f7f-10c0.zip/node_modules/luxon/",\
+        "packageDependencies": [\
+          ["luxon", "npm:3.5.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -13908,6 +14078,15 @@ const RAW_RUNTIME_STATE =
           ["@jsonjoy.com/util", "virtual:90d2379f465de47b881e4e8ba2f7e73fe22fef34945966ccb1bc4be3253db2f7f5c0329f780fd31cd241f8ea444c2f235a202b485ed1545d39a14003eb7daf10#npm:1.5.0"],\
           ["tree-dump", "virtual:90d2379f465de47b881e4e8ba2f7e73fe22fef34945966ccb1bc4be3253db2f7f5c0329f780fd31cd241f8ea444c2f235a202b485ed1545d39a14003eb7daf10#npm:1.0.2"],\
           ["tslib", "npm:2.8.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["memoize-one", [\
+      ["npm:6.0.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/memoize-one-npm-6.0.0-8b2a2cd020-10c0.zip/node_modules/memoize-one/",\
+        "packageDependencies": [\
+          ["memoize-one", "npm:6.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -14174,6 +14353,25 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/mkdirp-npm-3.0.1-f94bfa769e-10c0.zip/node_modules/mkdirp/",\
         "packageDependencies": [\
           ["mkdirp", "npm:3.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["moment", [\
+      ["npm:2.30.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/moment-npm-2.30.1-1c51a5c631-10c0.zip/node_modules/moment/",\
+        "packageDependencies": [\
+          ["moment", "npm:2.30.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["moment-timezone", [\
+      ["npm:0.5.46", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/moment-timezone-npm-0.5.46-593e8bed01-10c0.zip/node_modules/moment-timezone/",\
+        "packageDependencies": [\
+          ["moment-timezone", "npm:0.5.46"],\
+          ["moment", "npm:2.30.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -16926,6 +17124,48 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-big-calendar", [\
+      ["npm:1.17.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-big-calendar-npm-1.17.0-3c2d6cf1b8-10c0.zip/node_modules/react-big-calendar/",\
+        "packageDependencies": [\
+          ["react-big-calendar", "npm:1.17.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:1.17.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-big-calendar-virtual-c2062c1849/4/AppData/Local/Yarn/Berry/cache/react-big-calendar-npm-1.17.0-3c2d6cf1b8-10c0.zip/node_modules/react-big-calendar/",\
+        "packageDependencies": [\
+          ["react-big-calendar", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:1.17.0"],\
+          ["@babel/runtime", "npm:7.26.0"],\
+          ["@types/react", "npm:19.0.1"],\
+          ["@types/react-dom", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:19.0.2"],\
+          ["clsx", "npm:1.2.1"],\
+          ["date-arithmetic", "npm:4.1.0"],\
+          ["dayjs", "npm:1.11.13"],\
+          ["dom-helpers", "npm:5.2.1"],\
+          ["globalize", "npm:0.1.1"],\
+          ["invariant", "npm:2.2.4"],\
+          ["lodash", "npm:4.17.21"],\
+          ["lodash-es", "npm:4.17.21"],\
+          ["luxon", "npm:3.5.0"],\
+          ["memoize-one", "npm:6.0.0"],\
+          ["moment", "npm:2.30.1"],\
+          ["moment-timezone", "npm:0.5.46"],\
+          ["prop-types", "npm:15.8.1"],\
+          ["react", "npm:19.0.0"],\
+          ["react-dom", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:19.0.0"],\
+          ["react-overlays", "virtual:c2062c1849e6a67592ae7ba313bcfd3de5c0bcb2da2cc203eb8ae5b2b9e4e5ea6aa40d16aca745bbe9ff64c3b3fdd7d343226a5fe535c529cfa5c20b5cab1c63#npm:5.2.1"],\
+          ["uncontrollable", "virtual:c2062c1849e6a67592ae7ba313bcfd3de5c0bcb2da2cc203eb8ae5b2b9e4e5ea6aa40d16aca745bbe9ff64c3b3fdd7d343226a5fe535c529cfa5c20b5cab1c63#npm:7.2.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-dev-utils", [\
       ["npm:12.0.1", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-dev-utils-npm-12.0.1-83ba06e3ee-10c0.zip/node_modules/react-dev-utils/",\
@@ -17027,6 +17267,49 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-is-npm-18.3.1-370a81e1e9-10c0.zip/node_modules/react-is/",\
         "packageDependencies": [\
           ["react-is", "npm:18.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-lifecycles-compat", [\
+      ["npm:3.0.4", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-lifecycles-compat-npm-3.0.4-d5e285a39e-10c0.zip/node_modules/react-lifecycles-compat/",\
+        "packageDependencies": [\
+          ["react-lifecycles-compat", "npm:3.0.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-overlays", [\
+      ["npm:5.2.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/react-overlays-npm-5.2.1-cf8f92c86d-10c0.zip/node_modules/react-overlays/",\
+        "packageDependencies": [\
+          ["react-overlays", "npm:5.2.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:c2062c1849e6a67592ae7ba313bcfd3de5c0bcb2da2cc203eb8ae5b2b9e4e5ea6aa40d16aca745bbe9ff64c3b3fdd7d343226a5fe535c529cfa5c20b5cab1c63#npm:5.2.1", {\
+        "packageLocation": "./.yarn/__virtual__/react-overlays-virtual-5d461e8d16/4/AppData/Local/Yarn/Berry/cache/react-overlays-npm-5.2.1-cf8f92c86d-10c0.zip/node_modules/react-overlays/",\
+        "packageDependencies": [\
+          ["react-overlays", "virtual:c2062c1849e6a67592ae7ba313bcfd3de5c0bcb2da2cc203eb8ae5b2b9e4e5ea6aa40d16aca745bbe9ff64c3b3fdd7d343226a5fe535c529cfa5c20b5cab1c63#npm:5.2.1"],\
+          ["@babel/runtime", "npm:7.26.0"],\
+          ["@popperjs/core", "npm:2.11.8"],\
+          ["@restart/hooks", "virtual:5d461e8d166ebaec6cf2d44e7e497aff4621a013ffa1f538801a5bbc5952d439f52a380ee4119d83ca50e4bff174b4e6aa26c1c2754fe3b5e35adeda7ad04e4b#npm:0.4.16"],\
+          ["@types/react", "npm:19.0.1"],\
+          ["@types/react-dom", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:19.0.2"],\
+          ["@types/warning", "npm:3.0.3"],\
+          ["dom-helpers", "npm:5.2.1"],\
+          ["prop-types", "npm:15.8.1"],\
+          ["react", "npm:19.0.0"],\
+          ["react-dom", "virtual:cc7101cbf1f5e9142be179e71203ae2f6035e55f97c411ed99a6a387332bd8a449f29a2c60a124a32da20a546475b15a8b9e7df7a1f6e616b9d5073f85497c3c#npm:19.0.0"],\
+          ["uncontrollable", "virtual:c2062c1849e6a67592ae7ba313bcfd3de5c0bcb2da2cc203eb8ae5b2b9e4e5ea6aa40d16aca745bbe9ff64c3b3fdd7d343226a5fe535c529cfa5c20b5cab1c63#npm:7.2.1"],\
+          ["warning", "npm:4.0.3"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -19220,6 +19503,31 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["uncontrollable", [\
+      ["npm:7.2.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/uncontrollable-npm-7.2.1-85b30af5c9-10c0.zip/node_modules/uncontrollable/",\
+        "packageDependencies": [\
+          ["uncontrollable", "npm:7.2.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:c2062c1849e6a67592ae7ba313bcfd3de5c0bcb2da2cc203eb8ae5b2b9e4e5ea6aa40d16aca745bbe9ff64c3b3fdd7d343226a5fe535c529cfa5c20b5cab1c63#npm:7.2.1", {\
+        "packageLocation": "./.yarn/__virtual__/uncontrollable-virtual-0b1c343201/4/AppData/Local/Yarn/Berry/cache/uncontrollable-npm-7.2.1-85b30af5c9-10c0.zip/node_modules/uncontrollable/",\
+        "packageDependencies": [\
+          ["uncontrollable", "virtual:c2062c1849e6a67592ae7ba313bcfd3de5c0bcb2da2cc203eb8ae5b2b9e4e5ea6aa40d16aca745bbe9ff64c3b3fdd7d343226a5fe535c529cfa5c20b5cab1c63#npm:7.2.1"],\
+          ["@babel/runtime", "npm:7.26.0"],\
+          ["@types/react", "npm:19.0.1"],\
+          ["invariant", "npm:2.2.4"],\
+          ["react", "npm:19.0.0"],\
+          ["react-lifecycles-compat", "npm:3.0.4"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["underscore", [\
       ["npm:1.12.1", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/underscore-npm-1.12.1-f5ca0889f5-10c0.zip/node_modules/underscore/",\
@@ -19490,6 +19798,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["walker", "npm:1.0.8"],\
           ["makeerror", "npm:1.0.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["warning", [\
+      ["npm:4.0.3", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/warning-npm-4.0.3-291e921d6d-10c0.zip/node_modules/warning/",\
+        "packageDependencies": [\
+          ["warning", "npm:4.0.3"],\
+          ["loose-envify", "npm:1.4.0"]\
         ],\
         "linkType": "HARD"\
       }]\
