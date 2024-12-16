@@ -1,7 +1,13 @@
 import React from 'react';
+import MyCalendar from './components/Calendar';
 
 const App: React.FC = () => {
-  return <h1>캘린더 프로젝트</h1>;
+  return (
+    <div>
+      <h1>React Big Calendar</h1>
+      <MyCalendar />
+    </div>
+  );
 };
 
 export default App;
